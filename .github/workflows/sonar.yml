@@ -32,7 +32,7 @@ jobs:
           restore-keys: ${{ runner.os }}-sonar
 
       - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@v2
+        uses: SonarSource/sonarcloud-github-action@master
         with:
           args: >
             -Dsonar.projectKey=devmustafashf1_CICD-SonarQube-03
